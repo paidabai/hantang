@@ -1,0 +1,156 @@
+.all {
+    grid: 110px 40px 140px auto 80px / 100%;
+}
+
+.banner-bg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background: url(../img/banner-bg.png);
+}
+
+.content {
+    display: grid;
+    grid: auto / 270px 700px;
+    grid-column-gap: 30px;
+    margin-bottom: 80px;
+}
+
+.subnav-left {
+    height: 613px;
+    position: relative;
+}
+
+.nav-flexed {
+    position: absolute;
+    top: -12px;
+}
+
+.navtop {
+    width: 270px;
+    height: 100px;
+    background-color: rgb(215, 19, 20);
+    /* padding: 20px; */
+    color: white;
+}
+
+.navtop h2 {
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.3) 2px 2px 2px;
+    padding: 20px 0 0 20px;
+    font: 20px '微软雅黑';
+}
+
+.navtop p {
+    font: 50px/60px Kalinga;
+    color: #ff1e1e;
+    padding-left: 10px;
+}
+
+.navheader ul {
+    width: 268px;
+    height: 98px;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid rgb(221, 221, 221);
+    padding-bottom: 80px;
+}
+
+.navheader ul li {
+    height: 39px;
+    line-height: 39px;
+    padding-left: 20px;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    position: relative;
+    color: #666;
+}
+
+.navheader ul i {
+    border-width: 6px;
+    border-color: transparent transparent transparent #999;
+    border-style: dashed dashed dashed solid;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    margin-top: -6px;
+}
+
+.nav ul li:nth-child(3) .nav_hov {
+    background: linear-gradient(0, #940000, #D41011);
+    color: white;
+}
+
+.navfooter ul {
+    width: 268px;
+    height: 181px;
+    list-style: none;
+    padding-left: 0;
+    border: 1px solid rgb(221, 221, 221);
+    padding-bottom: 80px;
+}
+
+.navfooter ul li {
+    width: 225px;
+    height: 39px;
+    font: 15px/39px "Microsoft YaHei";
+    line-height: 39px;
+    border-bottom: 1px dashed rgb(221, 221, 221);
+    margin-left: 20px;
+    color: #666;
+}
+
+.navfooter ul li::before {
+    content: ">";
+}
+
+.navbuttom {
+    width: 230px;
+    height: 30px;
+    background-color: rgb(172, 153, 109);
+    padding: 20px;
+    font-size: 22px;
+    line-height: 30px;
+    color: white;
+}
+
+.navbuttom span {
+    font-size: 12px;
+}
+
+.content-right {
+    margin-top: 20px;
+}
+
+.content-header {
+    height: 25px;
+    border-bottom: 4px solid rgb(211, 211, 211);
+}
+
+.content-header img {
+    width: 15px;
+    height: 15px;
+    margin-top: 3px;
+}
+
+.content-header ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+}
+
+.content-header ul span {
+    list-style: none;
+    font-size: 14px;
+    color: #666;
+    margin-left: 10px;
+}
+
+.content-header ul li {
+    font-size: 14px;
+    color: #666;
+}
+
+.content-header ul li:not(:nth-child(3))::before {
+    content: ">";
+}
