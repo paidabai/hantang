@@ -81,13 +81,35 @@
     color: white;
 }
 
+.group-bd {
+    width: 268px;
+    height: 263px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.group-bd div {
+    height: 160px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
 .navfooter ul {
     width: 268px;
-    height: 181px;
     list-style: none;
     padding-left: 0;
     border: 1px solid rgb(221, 221, 221);
     padding-bottom: 80px;
+    animation: move 8s linear infinite;
+}
+
+@keyframes move {
+    to{
+        transform: translateY(-320px);
+    }
+}
+
+.navfooter ul:hover {
+    animation-play-state: paused;
 }
 
 .navfooter ul li {
