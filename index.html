@@ -1,318 +1,297 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>汉唐资产</title>
+		<link rel="stylesheet" href="css/global.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="shortcut icon" href="favicon.ico">
+	</head>
+	<body>
+		<!--header部分-->
+		<div class="header">
+			<div class="logo">
+				<h1>
+					<a href="#">汉唐资产</a>
+				</h1>
+			</div>
+			<div class="search">
+				<a href="javascript:;">
+					官方微信
+					<img src="images/code.jpg" alt="" />
+				</a>
+				<div>
+					<input type="text" placeholder="请输入关键词" name="" id="" value="" />
+					<button>搜索</button>
+				</div>
+			</div>
+		</div>
+		<!--导航部分-->
+		<div class="nav">
+			<div class="nav-bd">
+				<ul>
+					<li class="home">
+						<a href="index.html">
+							<span>首页</span>
+							<i></i>
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>关于汉唐</span>
+							<i></i>
+						</a>
+						<ul>
+							<li><a href="aboutus.html">公司简介</a></li>
+							<li><a href="president.html">董事长致辞</a></li>
+							<li><a href="event.html">公司大事记</a></li>
+							<li><a href="company.html">旗下公司</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<span>新闻中心</span>
+							<i></i>
+						</a>
+						<ul style="width: 820px;">
+							<li><a href="list-news.html">公司动态</a></li>
+							<li><a href="list-news.html">产品资讯</a></li>
+							<li><a href="list-news.html">业界资讯</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<span>公司业务</span>
+							<i></i>
+						</a>
+						<ul style="width: 730px;">
+							<li><a href="fund.html">私募基金</a></li>
+							<li><a href="business.html">资产管理</a></li>
+							<li><a href="wealth.html">财富管理</a></li>
+							<li><a href="invest.html">投资顾问</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<span>宾馆餐饮</span>
+							<i></i>
+						</a>
+						<ul style="width: 640px;">
+							<li><a href="hotel.html">连锁酒店</a></li>
+							<li><a href="food.html">连锁餐饮</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">	
+							<span>企业文化</span>
+							<i></i>
+						</a>
+						<ul style="width: 550px;">
+							<li><a href="culture.html">核心理念</a></li>
+							<li><a href="vision.html">公司愿景</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<span>合作交流</span>
+							<i></i>
+						</a>
+						<ul style="width: 460px;">
+							<li><a href="coop.html">项目推介</a></li>
+							<li><a href="coop.html">投资意向</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<span>招贤纳士</span>
+							<i></i>
+						</a>
+						<ul style="width: 370px;">
+							<li><a href="list-job.html">招贤纳士</a></li>
+						</ul>
+					</li>
+					<li>
+						<a href="#">
+							<span>联系我们</span>
+							<i></i>
+						</a>
+						<ul style="width: 280px;">
+							<li><a href="contact.html">通联信息</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+				
+		<!--banner部分-->
+		<div class="banner">
+			<div class="banner-bd">
+				<ul id="cont">
+					<!-- <li style="z-index:1;"><img src="images/banner1.jpg" alt="" /></li>
+					<li><img src="images/banner2.jpg" alt="" /></li>
+					<li><img src="images/banner3.jpg" alt="" /></li>
+					<li><img src="images/banner4.jpg" alt="" /></li> -->
+				</ul>
+				<ol>
+					<li class="current"></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+				<span class="left"></span>
+				<span class="right"></span>
+			</div>
+		</div>
+		<div class="container clearfix line1">
+			<div class="focus">
+				<div>
+					<ul>
+						<li>
+							<a href="#"><img src="images/focus.jpg" alt="" /></a>
+							<p>人民币“入篮”SDR 9个你必须知道的问题</p>
+						</li>
+						<li>
+							<img src="images/focus.jpg" alt="" />
+							<p>人民币“入篮”SDR 9个你必须知道的问题</p>
+						</li>
+						<li>
+							<img src="images/focus.jpg" alt="" />
+							<p>人民币“入篮”SDR 9个你必须知道的问题</p>
+						</li>
+						<li>
+							<img src="images/focus.jpg" alt="" />
+							<p>人民币“入篮”SDR 9个你必须知道的问题</p>
+						</li>
+					</ul>
+					<ol>
+						<li class="current"></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ol>
+				</div>
+				
+			</div>
+			<div class="info">
+				<div class="info-hd">
+					<h3>公司资讯 / <span>Company Information</span></h3>
+					<a href="#">更多 &gt;&gt;</a>
+				</div>
+				<ul class="info-bd" id="list-cont">
+					<!-- 新闻列表渲染位置 -->
+					<!-- <li><a href="#">中央重磅文件严禁地方政府违约毁约 给PPP吃定心丸</a><span>2016-11-28</span></li> -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>北京汉唐集团</title>
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="stylesheet" href="./css/cssclean.css">
-</head>
-
-<body>
-    <div class="all">
-        <div class="header">
-            <div class="header_logo">
-                <img src="./img/logo.png" alt="">
-            </div>
-            <div class="search">
-                <a href="javascript:;">
-                    官方微信
-                    <img src="./img/code.jpg" alt="">
-                </a>
-                <div>
-                    <form action="#" method="get">
-                        <input type="text" placeholder="请输入关键词" name="keyword">
-                        <button></button>
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="nav_bc">
-            <div class="nav">
-                <ul>
-                    <li>
-                        <a class="nav_hov" href="">首页</a>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="">关于汉唐</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                            <li>
-                                <a href="">董事长致辞</a>
-                            </li>
-                            <li>
-                                <a href="">公司大世界</a>
-                            </li>
-                            <li>
-                                <a href="">旗下公司</a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="./dynamics.html">新闻中心</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                            <li>
-                                <a href="">董事长致辞</a>
-                            </li>
-                            <li>
-                                <a href="">公司大世界</a>
-                            </li>
-                            <li>
-                                <a href="">旗下公司</a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="">公司业务</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                            <li>
-                                <a href="">董事长致辞</a>
-                            </li>
-                            <li>
-                                <a href="">公司大世界</a>
-                            </li>
-                            <li>
-                                <a href="">旗下公司</a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="">宾馆餐饮</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                            <li>
-                                <a href="">董事长致辞</a>
-                            </li>
-                            <li>
-                                <a href="">公司大世界</a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="">企业文化</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                            <li>
-                                <a href="">董事长致辞</a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="">合作交流</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                            <li>
-                                <a href="">董事长致辞</a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="">招贤纳士</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                        </ol>
-                    </li>
-                    <li>
-                        <a class="nav_hov" href="">联系我们</a>
-                        <ol>
-                            <li>
-                                <a href="">公司简介</a>
-                            </li>
-                        </ol>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="img_bc">
-            <div class="img">
-                <img src="./img/banner1.jpg" alt="">
-                <i class="left"><a href=""></a></i>
-                <i class="right"><a href=""></a></i>
-            </div>
-            <ol>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ol>
-        </div>
-        <div class="container">
-            <div class="container_img">
-                <a href="">
-                    <img src="http://y2.ifengimg.com/1a49d0cd0cb3eb9b/2013/0412/rdn_5167d07dee0d8.jpg" alt="">
-                    <p>原浙江省长吕祖善退休后在博物馆当义务讲解员</p>
-                </a>
-                <ol>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ol>
-            </div>
-            <div class="selection">
-                <h3>新闻中心 /
-                    <span>NEWS CENTRE</span>
-                    <a href="./dynamics.html">更多>></a>
-                </h3>
-                <ul>
-                    <li>
-                        <a href="./proinfo.html">菲律宾海域发生5.4级地震 震源深度103公里</a>
-                        <span>2013-04-12</span>
-                    </li>
-                    <li>
-                        <a href="#">让操作更简单 本周最受关注智能电视盘点</a>
-                        <span>2013-04-12</span>
-                    </li>
-                    <li>
-                        <a href="#">最高降幅达千元 网购空调热销机型大揭秘</a>
-                        <span>2013-04-12</span>
-                    </li>
-                    <li>
-                        <a href="#">范冰冰华鼎奖封后 AngelaBaby火了美乳裙</a>
-                        <span>2013-04-12</span>
-                    </li>
-                    <li>
-                        <a href="#">《北京遇上西雅图》孕产知识靠谱吗？专家来纠错</a>
-                        <span>2013-04-12</span>
-                    </li>
-                    <li>
-                        <a href="#">婴儿游泳馆受家长热捧 卫生及人员配备令人担忧</a>
-                        <span>2013-04-12</span>
-                    </li>
-                    <li>
-                        <a href="#">奥地利科学家称海平面上升将导致大量生物灭绝</a>
-                        <span>2013-04-12</span>
-                    </li>
-
-                    <li>
-                        <a href="#">原浙江省长吕祖善退休后在博物馆当义务讲解员</a>
-                        <span>2013-04-12</span>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="business_bc">
-            <div class="business">
-                <h3>公司业务 /
-                    <span>Company Business</span>
-                </h3>
-                <div class="busi-bd">
-                    <ul>
-                        <li>
-                            <a href="#">
-                                <img src="./img/btn1.jpg" alt="">
-                                <div class="shadow"></div>
-                                <div class="box sprite1"></div>
-                                <p>私募基金</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./img/btn2.jpg" alt="">
-                                <div class="shadow"></div>
-                                <div class="box sprite2"></div>
-                                <p>资产管理</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./img/btn3.jpg" alt="">
-                                <div class="shadow"></div>
-                                <div class="box sprite3"></div>
-                                <p>财富管理</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./img/btn4.jpg" alt="">
-                                <div class="shadow"></div>
-                                <div class="box sprite4"></div>
-                                <p>投资顾问</p>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                <img src="./img/btn5.jpg" alt="">
-                                <div class="shadow"></div>
-                                <div class="box sprite5"></div>
-                                <p>宾馆餐饮</p>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="cooperation">
-            <h3>合作伙伴 /
-                <span>Cooperative partner</span>
-            </h3>
-            <div class="coop-bd">
-                <ul>
-                    <li>
-                        <a href="#">
-                            <img src="./img/01.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./img/02.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./img/03.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="#">
-                            <img src="./img/04.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="./img/05.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="./img/06.jpg" alt="">
-                        </a>
-                    </li>
-                    <li>
-                        <a href="">
-                            <img src="./img/07.jpg" alt="">
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div class="footer_bc">
-            <div class="footer">
-                <p>北京汉唐资产管理集团有限公司&nbsp;&nbsp;电话：010-85187800</p>
-                <p>Copyright © 2013-2020 hantangamc.com.All Rights Reserved 京ICP备14001159号</p>
-            </div>
-        </div>
-    </div>
-
-</body>
-
+				</ul>
+			</div>
+		</div>
+		<div class="container-fluid line2">
+			<div class="container">
+				<div class="busi-hd">
+					<h3>公司业务/<span>Company Business</span></h3>
+					<a href="#"></a>
+				</div>
+				<div class="busi-bd">
+					<ul class="clearfix">
+						<li>
+							<a href="#">
+								<img src="images/btn1.jpg" alt="" />
+								<div class="shadow"></div>
+								<div class="circle-icon"></div>
+								<p>私募基金</p>
+							</a>
+						</li>
+						<li class="twobz">
+							<img src="images/btn2.jpg" alt="" />
+							<div class="shadow"></div>
+							<div class="circle-icon"></div>
+							<p>资产管理</p>
+						</li>
+						<li class="threebz">
+							<img src="images/btn3.jpg" alt="" />
+							<div class="shadow"></div>
+							<div class="circle-icon"></div>
+							<p>财富管理</p>
+						</li>
+						<li class="lastbz">
+							<img src="images/btn4.jpg" alt="" />
+							<div class="shadow"></div>
+							<div class="circle-icon"></div>
+							<p>投资顾问</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="container line3">
+			<div class="info-hd">
+				<h3>合作伙伴 / <span>Cooperative partner</span></h3>
+			</div>
+				<div class="partner-bd">
+					<ul class="clearfix" id="list-img">
+						<!-- 图片渲染位置 -->
+					</ul>
+				</div>	
+		</div>
+		<div class="footer container-fluid">
+			<p>北京汉唐资产管理集团有限公司  电话：010-85187800</p>
+			<p>Copyright &copy; 2013-2020 hantangamc.com.All Rights Reserved 京ICP备14001159号</p>
+		</div>
+	</body>
 </html>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/jcarousellite_1.0.1.js"></script>
+<script src="js/index.js"></script>
+<script src="js/global.js"></script>
+
+<script type="module">
+	
+	import request from './js/ajax.js'
+
+	request({
+		url: '/v1/banner',
+	}).then((value) => {
+		value = JSON.parse(value)
+		const { data } = value
+		data.map((value) => {
+			const { pic, href } = value
+			document.getElementById('cont').innerHTML += `
+					<li style="z-index:1;"><img src="/hantang${pic}" alt="${href}" /></li>
+						`
+		})
+	}).catch((reason) => {
+		console.log(reason);
+	});
+
+	request({
+		url: '/v1/list',
+	}).then((value) => {
+		value = JSON.parse(value)
+		const { data } = value
+		data.map((value) => {
+			const { title } = value
+			document.getElementById('list-cont').innerHTML += `
+						<li><a href="#">${title}</a><span>2016-11-28</span></li>
+						`
+		})
+	}).catch((reason) => {
+		console.log(reason);
+	});
+
+	request({
+		url: '/v1/partner',
+	}).then((value) => {
+		value = JSON.parse(value)
+		const { data } = value
+		data.map((value) => {
+			const { pic, href } = value
+			document.getElementById('list-img').innerHTML += `
+						<li style="overflow: hidden; float: left; width: 125px; height: 38px;">
+							<img src='/hantang${pic}' alt="${href}">
+						</li>
+						`
+		})
+	}).catch((reason) => {
+		console.log(reason);
+	});
+
+</script>
